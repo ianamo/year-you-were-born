@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css" />    
+<title>The Year You Were Born</title>
+</head>
+<body>
+    <header><h2 id="title">The Year You Were Born</h2></header>
+    <div class="container">
+        <div class="year-selector">
+            <button onclick="subtractDecade()">-10</button>
+            <button onclick="subtractYear()">-</button>
+            <span id="year">1900</span>
+            <button onclick="addYear()">+</button>
+            <button onclick="addDecade()">+10</button>
+            <br>
+            <button id="go-button" onclick="addFact()">ADD FACT</button>
+        </div>
+        
+        <div class="factoid-holder"><ul id="factoids"></ul></div>
+    </div>
+    <footer>Copyright &copy; 2024 Ian Mosley. Facts scraped from <a href="http://en.wikipedia.org/">Wikipedia</a>.</footer>  
+
+    <script type="text/javascript" src="./chronicle.json"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

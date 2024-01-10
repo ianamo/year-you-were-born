@@ -1,0 +1,29 @@
+html {
+    background-color: #F8F4EC;
+}
+
+#title {
+    text-align: center;
+    font-family: 'PlayFair Display', cursive;
+    font-size: 2rem;
+}
+
+#year {
+    font-family: 'Oldenburg', serif;
+}
+
+.year-selector {
+    text-align: center;
+    width: 85vw;
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+.year-selector button {
+    font-size: 1rem;
+    margin: 5px 4px;
+    font-weight: bolder;
+    font-family: 'Oldenburg', serif;
+    border-radius: 9px;
+    background-color: #AFC8AD;
+}
